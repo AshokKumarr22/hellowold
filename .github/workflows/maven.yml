@@ -3,7 +3,18 @@
 
 name: Java CI with Maven
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch
+    inputs:
+    build_id:
+      required: true
+      type: number
+    deploy_target:
+      required: true
+      type: string
+    perform_deploy:
+      required: true
+      type: boolean
 
 jobs:
   build:
