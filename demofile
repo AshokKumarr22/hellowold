@@ -1,11 +1,10 @@
 #!/bin/bash
 
-
-
 {
-  hello world
-  hi guys
+ # hello world
+ #hi guys
   welcome to our world
   be happy always...
   Think always positive..
-  Keep smile..}
+  Keep smile..
+}
